@@ -1,10 +1,10 @@
 # GNU Parallel Demo
 
-I demo how to use `cpulimit` and `parallel` commands to process multiple datasets in a parallel manner.
+I demo how to use `cpulimit` and `parallel` commands to process multiple datasets in a parallel manner. The main Python processing code for each dataset is located in the `main.py` file. The `submit-job.sh` file will find all the datasets and parallize the `main.py` file.
 
 ## Installation
 
-You need to install `cpulimit` and `parallel` package. If you do not have the sudo permissions, please ask the admin to do so.
+You need to install `cpulimit` and `parallel` package. If you do not have the sudo permission, please ask the admin to install the packages.
 
 ```bash 
 sudo apt update -y 
